@@ -77,6 +77,9 @@
     <Content Include="grid_view.aspx" />
     <Content Include="home.aspx" />
     <Content Include="remove_student.aspx" />
+    <Content Include="sp_insert.aspx" />
+    <Content Include="sp_update.aspx" />
+    <Content Include="sp_view.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +126,27 @@
     </Compile>
     <Compile Include="remove_student.aspx.designer.cs">
       <DependentUpon>remove_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sp_insert.aspx.cs">
+      <DependentUpon>sp_insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sp_insert.aspx.designer.cs">
+      <DependentUpon>sp_insert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sp_update.aspx.cs">
+      <DependentUpon>sp_update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sp_update.aspx.designer.cs">
+      <DependentUpon>sp_update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sp_view.aspx.cs">
+      <DependentUpon>sp_view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sp_view.aspx.designer.cs">
+      <DependentUpon>sp_view.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
